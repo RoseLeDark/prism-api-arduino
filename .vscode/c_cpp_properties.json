@@ -1,0 +1,56 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/amber/Dokumente/Projecte/prism/api/arduino/include",
+                "/home/amber/Dokumente/Projecte/prism/api/arduino/src",
+                "/home/amber/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/amber/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/amber/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/amber/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/amber/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/amber/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/amber/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/amber/Dokumente/Projecte/prism/api/arduino/include",
+                    "/home/amber/Dokumente/Projecte/prism/api/arduino/src",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/amber/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_AVR_MEGA",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega1280__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/amber/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega1280",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

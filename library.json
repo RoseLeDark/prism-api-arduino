@@ -1,0 +1,33 @@
+{
+  "name": "prism-arduiono",
+  "version": "1.0.1",
+  "description": "A prism host API for a prism Esp32-SIMD CoProzessor.",
+  "keywords": "simd, prism, arduino, coprocessor",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/RoseLeDark/prism-api-arduino.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Amber-Sophia Schröck",
+      "email": "me@john-smith.com",
+      "url": "https://github.com/RoseLeDark/"
+    }
+  ],
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/RoseLeDark/prism/",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "includeDir": "inc"
+  },
+  "examples": [
+    {
+      "name": "Basic PRISM Example ESP32 SIMD CoProcessor over I2C",
+      "base": "examples/",
+      "files": ["generic_examples.ino"]
+    } 
+  ]
+}
