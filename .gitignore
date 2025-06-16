@@ -50,3 +50,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+.pio
+.pioenvs/
+.vscode/
+.vscode/*
+# Arduino specific
+*.ino.*
+# Build directories
+build/
+# Arduino IDE specific
+arduino_cache/
+# Arduino CLI specific
+arduino-cli.yaml
+# PlatformIO specific
+.platformio/
